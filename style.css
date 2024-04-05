@@ -39,8 +39,8 @@ min-height: 100vh;
   
   background: #f1b;
   
-  width: 10%;
-  height: 50%;
+  width: 10px;
+  height: 50px;
 
   transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
   filter: blur(64px);
@@ -51,12 +51,12 @@ min-height: 100vh;
 /* Estilos para hover */
 .neon::after {
   content: "";
-  position: absolute;
+  position: low;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  box-shadow: 0 0 128px 32px #f1b;
+  box-shadow: 0 0 121px 32px #f1b;
   opacity: 0;
   background-color: #f1b;
   z-index: -1;
@@ -71,4 +71,9 @@ min-height: 100vh;
 .neon:hover {
   color: #31202b;
   text-shadow: none;
+}
+{
+
+	background-position-x: top;
+	background-position-y: low;
 }
