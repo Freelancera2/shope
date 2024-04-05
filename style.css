@@ -40,7 +40,7 @@ min-height: 100vh;
   background: #f1b;
   
   width: 10%;
-  height: 0%;
+  height: 50%;
 
   transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
   filter: blur(64px);
