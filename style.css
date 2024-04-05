@@ -34,13 +34,13 @@ min-height: 100vh;
 .neon::before {
   content: "";
   position: absolute;
-  top: 120%;
+  top: 100%;
   left: 0;
   
   background: #f1b;
   
-  width: 100%;
-  height: 100%;
+  width: 10%;
+  height: 0%;
 
   transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
   filter: blur(64px);
