@@ -4,6 +4,7 @@ body{
 	background-image: url(https://cdna.artstation.com/p/assets/images/images/028/102/058/original/pixel-jeff-matrix-s.gif?1593487263);
 	 
 }
+{
 min-height: 100vh;
   display: grid;
   place-items: center;
