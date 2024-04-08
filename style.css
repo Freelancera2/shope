@@ -52,7 +52,7 @@ min-height: 100vh;
 /* Estilos para hover */
 .neon::after {
   content: "";
-  position: low;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
