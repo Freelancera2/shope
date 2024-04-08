@@ -5,7 +5,7 @@ body{
 	 
 }
 {
-min-height: 90px;
+min-height: 100vh;
   display: grid;
   place-items: revert;
   font-family: "Nunito", sans-serif;
