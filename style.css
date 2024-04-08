@@ -34,7 +34,7 @@ min-height: 100vh;
 /* Reflexo do botão */
 .neon::before {
   content: "";
-  position: absolute;
+  position: low;
   top: 100%;
   left: 0;
   
