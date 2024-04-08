@@ -32,55 +32,68 @@ width: 290px;
 		text-align-last: center;
 
 
-  color:  #800080;
+  /*Loop Neon*/
+.title_loop {
+
+  width:100%;
+  height:auto;
+  text-align: center;
+
+}
+
+.title_loop .title {
+
+    font-family: 'open_sansregular';
+    font-size: 6em;
+    color: #fff;
+    text-shadow: 0 -50px 100px, 0 0 2px, 0 0 1em #00afb3, 0 0 0.5em #008d93, 0 0 0.1em #00abff, 0 10px 5px #000;
+}
+.title_loop .title span{
+
+  animation: blink linear infinite 2s;
+  font-weight: bold;
+  font-family: 'open_sansbold';
+
+}
+.title_loop .title span:nth-of-type(2){
+  animation: blink linear infinite 4s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #242424;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #242424;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #242424;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+/*Loop Neon*/
 	}
 
-
-
-
-{
-/* Reflexo do botão */
-.neon::before {
-  content: "";
-  position: low;
-  top: 100%;
-  left: 0;
-  
-  background: #f1b;
-  
-  width: 10px;
-  height: 50px;
-
-  transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
-  filter: blur(64px);
-  opacity: 0.7;
-  pointer-events: none;
-}
-{
-/* Estilos para hover */
-.neon::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 0 121px 32px #f1b;
-  opacity: 0;
-  background-color: #f1b;
-  z-index: -1;
-  transition: opacity 100ms linear;
-}
-{
-.neon:hover::before,
-.neon:hover::after {
-  opacity: 1;
-}
-{
-.neon:hover {
-  color: #31202b;
-  text-shadow: none;
-}
 
 
 
