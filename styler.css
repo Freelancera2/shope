@@ -3,42 +3,89 @@ body{
 	background-color: salmon;
 }
 
-*{margin: 0; padding: 0;}
+$cor-1: #9b59b6;
+$cor-2: #ecf0f1;
+$cor-3: #27ae60; // green
 
-body{
-font-family: arial, helvetica, sans-serif;
-font-size: 12px;
+
+html {
+  box-sizing: border-box;
 }
 
-.menu{
-list-style:none;
-border:1px solid #c0c0c0;
-float:left;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
-.menu li{
-position:center;
-float:center;
-border-right:1px solid #c0c0c0;
-}
-.menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
 
-.menu li a:hover{
-background:#333;
-color:#fff;
--moz-box-shadow:0 3px 10px 0 #CCC;
--webkit-box-shadow:0 3px 10px 0 #ccc;
-text-shadow:0px 0px 5px #fff;
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: $cor-3;
 }
-.menu li  ul{
-position:absolute;
-top:25px;
-left:0;
-background-color:#fff;
-display:none;
+
+nav {
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
-.menu li:hover ul, .menu li.over ul{display:block;}
-.menu li ul li{
-border:1px solid #c0c0c0;
-display:block;
-width:150px;
+
+
+h1 {
+  width: 500px;
+  margin: 100px auto 20px;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.nav {
+  width: 500px;
+  margin: 0 auto;
+  background: darken( $cor-3, 10% );
+  color: #f0f0f0;
+  a {
+    display: block;
+    padding: 0 16px;
+    line-height: inherit;
+    cursor: pointer;
+  }
+  
+   &__menu {
+     line-height: 45px;
+     font-weight: 700;
+     text-transform: uppercase;
+     &-item {
+       display: inline-block;
+       position: relative;
+       
+       &:hover {
+         background-color: $cor-1;
+         
+         .nav__submenu {
+           display: block;
+         }
+       }
+     }
+     
+   }
+  
+  
+  &__submenu {
+    font-weight: 300;
+    text-transform: none;
+    display: none;
+    position: absolute;
+    width: 220px;
+    background-color: $cor-1;
+    
+    &-item {
+      &:hover {
+        background: rgba( #000, 0.1 );
+      }
+    }
+  }
+  
 }
