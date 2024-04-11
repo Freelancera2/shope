@@ -17,7 +17,7 @@ float:left;
 }
 .menu li{
 position:center;
-float:left;
+float:center;
 border-right:1px solid #c0c0c0;
 }
 .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
