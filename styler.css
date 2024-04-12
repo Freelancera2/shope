@@ -8,3 +8,20 @@ margin: 0;
 	font: 300 14px/18px Roboto;
 	background-image: url('../images/texture.png');
  }
+
+ *,
+:after,
+:before {
+  box-sizing: border-box
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table
+}
+
+.clearfix:after {
+  clear: both;
+  display: block
+}
