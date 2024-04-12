@@ -39,7 +39,7 @@ a, a:hover, a.active, a:active, a:visited, a:focus{
 }
 
 .exo-menu{
-	width: 250px;
+	width: 210px;
 	float: left;
 	list-style: none;
 	position:relative;
