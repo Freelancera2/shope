@@ -25,3 +25,23 @@ margin: 0;
   clear: both;
   display: block
 }
+ul{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+a, a:hover, a.active, a:active, a:visited, a:focus{
+	color:#fefefe;
+	text-decoration:none;
+}
+.content{
+	margin: 50px 100px 0px 100px;
+}
+
+.exo-menu{
+	width: 100%;
+	float: left;
+	list-style: none;
+	position:relative;
+	background: #23364B;
+}
