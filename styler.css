@@ -18,7 +18,7 @@ margin: 0;
 .clearfix:after,
 .clearfix:before {
   content: '';
-  display: flex
+  display: table
 }
 
 .clearfix:after {
