@@ -2,6 +2,9 @@ body{
 
 
 	background-image: url(https://pic.pikbest.com/02/12/70/43p888piCz5b.jpg!bw700);
+	
+background-repeat: no-repeat;
+
 }
 {
 min-height: 100;
@@ -77,6 +80,4 @@ min-height: 100;
 	background-position-x: top;
 	background-position-y: low;
 }
-{
-background-repeat: no-repeat;
-}
+
