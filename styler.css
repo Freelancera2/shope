@@ -23,7 +23,7 @@ margin: 0;
 
 .clearfix:after {
   clear: both;
-  display: block
+  display: flex
 }
 ul{
 	list-style:none;
@@ -39,7 +39,7 @@ a, a:hover, a.active, a:active, a:visited, a:focus{
 }
 
 .exo-menu{
-	width: 104px;
+	width: 102px;
 	float: left;
 	list-style: none;
 	position:relative;
