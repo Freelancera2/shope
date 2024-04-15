@@ -36,13 +36,13 @@ a, a:hover, a.active, a:active, a:visited, a:focus{
 }
 .content{
 	margin: 90px 90px 90px 90px;
-	position:center;
+	
 }
 
 .exo-menu{
 	width: 102px;
 	float: left;
 	list-style: none;
-	position:relative;
+	position:center;
 	background: #FFFFFF;
 }
