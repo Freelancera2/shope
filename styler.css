@@ -40,7 +40,7 @@ a, a:hover, a.active, a:active, a:visited, a:focus{
 
 .exo-menu{
 	width: 102px;
-	float: center;
+	float: top;
 	list-style: none;
 	position:relative;
 	background: #23364B;
