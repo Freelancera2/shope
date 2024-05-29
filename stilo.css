@@ -5,7 +5,7 @@ background: -ms-linear-gradient(left, #cc3c3c, #5f57a4);
 background: -o-linear-gradient(left, #cc3c3c, #5f57a4);
 background: linear-gradient(to right, #cc3c3c, #5f57a4);
 }
-{
+
 html {
   height: 100%;
   -webkit-box-sizing: border-box;
