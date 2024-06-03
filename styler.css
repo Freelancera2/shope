@@ -1,11 +1,14 @@
 body{
-.title{
-  font-sinze: 56px;
-  color:#8A2BE2;
-  background: -webkit-linear-gradient(left, #cc3c3c, #5f57a4);
+background: -webkit-linear-gradient(left, #cc3c3c, #5f57a4);
 background: -moz-linear-gradient(left, #cc3c3c, #5f57a4);
 background: -ms-linear-gradient(left, #cc3c3c, #5f57a4);
 background: -o-linear-gradient(left, #cc3c3c, #5f57a4);
 background: linear-gradient(to right, #cc3c3c, #5f57a4);
+}
+
+.title{
+  font-sinze: 56px;
+  color:#8A2BE2;
+  
 }
 }
